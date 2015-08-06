@@ -5,7 +5,7 @@
 <title>Dashboard example</title>
 <style>
 h1 { text-align: center; }
-html { font-family: Helvetica, Arial, Sans-Serif; font-size: large; height: 100%; color: black; background-color: white; overflow: hidden; }
+html { font-family: Helvetica, Arial, Sans-Serif; height: 100%; color: black; background-color: white; overflow: hidden; }
 body { display: flex; width: 100%; height: 100%; flex-direction: column;}
 body > * { flex: 1; }
 .box { display: flex; }
@@ -21,7 +21,7 @@ body > * { flex: 1; }
 <iframe src="https://webconverger.com/"></iframe>
 </div>
 
-<p>Simply showing how to reload the entire page after 10 seconds. As well as refreshing an iframe every second via Javascript.</p>
+<p>Simply showing how to reload the entire page after 10 seconds. As well as refreshing an iframe every second via Javascript. <a href=https://github.com/Webconverger/dashboard-iframe-refresh-demo>MIT licensed source code</a></p>
 
 <script>
 window.setInterval("reloadIFrame();", 1000);
