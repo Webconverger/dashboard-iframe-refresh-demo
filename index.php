@@ -5,7 +5,7 @@
 <title>Dashboard example</title>
 <style>
 h1 { text-align: center; }
-html { font-family: Helvetica, Arial, Sans-Serif; font-size: large; height: 100%; }
+html { font-family: Helvetica, Arial, Sans-Serif; font-size: large; height: 100%; color: black; background-color: white; overflow: hidden; }
 body { display: flex; width: 100%; height: 100%; flex-direction: column;}
 body > * { flex: 1; }
 .box { display: flex; }
